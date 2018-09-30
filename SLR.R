@@ -69,8 +69,8 @@ cbind(new2, p2)
 
 ?predict
 predict(fit1, newdata = new1, interval='confidence')
-predict(fit1, newdata = new1, interval='prediction')
 
+predict(fit1, newdata = new1, interval='prediction')
 women
 women$weight
 fitted(fit1) # predicted values of all original Xs
